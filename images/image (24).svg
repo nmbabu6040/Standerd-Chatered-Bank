@@ -1,0 +1,9 @@
+<svg width="100px" height="100px" viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg">
+		<defs>
+			<!-- Gradient from blue to green -->
+			<linearGradient id="gradient-blue-to-green" gradientUnits="userSpaceOnUse" x1="0%" y1="0%" x2="100%" y2="100%">
+				<stop stop-color="#6cc9fe" offset="0"></stop>
+				<stop stop-color="#38d54a" offset="1"></stop>
+			</linearGradient>
+		</defs>
+	</svg>

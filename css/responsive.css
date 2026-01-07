@@ -1,0 +1,168 @@
+/* XS device responsive max 320px */
+@media (max-width: 320px) {
+  .header {
+    display: none;
+  }
+
+  .navbar-brand img {
+    width: 100px;
+  }
+
+  .navbar {
+    padding: 0 !important;
+  }
+
+  .navbar-toggler {
+    padding: 3px 6px !important;
+  }
+
+  .carousel-indicators {
+    display: none;
+  }
+
+  .serviceItem a h4 {
+    font-size: 12px;
+    line-height: 16px;
+  }
+  .informationHead h3,
+  .indivisualPart h3 a,
+  .awardHead h3,
+  .whatHead h3 {
+    font-size: 24px;
+    line-height: 30px;
+  }
+
+  .indiContent p {
+    font-size: 10px;
+    line-height: 10px;
+  }
+
+  .smartContent {
+    padding: 20px;
+  }
+
+  .smartContent h4 {
+    font-size: 14px;
+    line-height: 16px;
+    margin-bottom: 20px;
+  }
+
+  .smartContent a {
+    padding: 5px 20px;
+    border-radius: 40px;
+    font-size: 10px;
+  }
+
+  .informationHead a {
+    font-size: 12px;
+  }
+
+  .infomationItem ul li a {
+    font-size: 12px;
+  }
+
+  .infomationItem ul li i {
+    display: none;
+  }
+
+  .copyPart {
+    flex-direction: column;
+  }
+
+  .ftItem {
+    border: none;
+  }
+}
+
+/* SM device responsive min 320.1px to 576px  */
+@media (min-width: 320.1px) and (max-width: 576px) {
+  .header {
+    display: none;
+  }
+
+  .carousel-indicators {
+    display: none;
+  }
+
+  .serviceItem a h4 {
+    font-size: 12px;
+    line-height: 16px;
+  }
+
+  .smartContent h4 {
+    font-size: 26px;
+    line-height: 36px;
+  }
+
+  .copyPart {
+    flex-direction: column;
+  }
+
+  .navBtn .login {
+    display: inline-block !important;
+  }
+
+  .ftItem {
+    border: none;
+  }
+}
+
+/* MD Device responsive 576.1px to 768px  */
+@media (min-width: 576.1px) and (max-width: 768px) {
+  .navBtn .login {
+    display: inline-block !important;
+  }
+
+  .bannerSlider .carousel-caption h1 {
+    font-size: 28px;
+    line-height: 36px;
+    margin-bottom: 20px;
+  }
+
+  .smartContent {
+    padding: 30px;
+  }
+
+  .smartContent h4 {
+    font-size: 16px;
+    line-height: 17px;
+    margin-bottom: 20px;
+  }
+
+  .smartContent a {
+    padding: 5px 30px;
+    font-size: 12px;
+  }
+
+  .ftItem {
+    border: none;
+  }
+}
+
+/* LG device responsive min 768.1px to 992px  */
+@media (min-width: 768.1px) and (max-width: 992px) {
+  .indiContent p {
+    font-size: 10px;
+    line-height: 14px;
+  }
+
+  .smartContent {
+    padding: 20px;
+  }
+
+  .smartContent h4 {
+    font-size: 18px;
+    line-height: 30px;
+  }
+
+  .ftItem {
+    border: none;
+  }
+}
+
+/* XL device responsive 992.1px to 1200px  */
+@media (min-width: 992.1px) and (max-width: 1200px) {
+  .smartContent {
+    padding: 40px;
+  }
+}
